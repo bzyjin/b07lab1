@@ -29,7 +29,6 @@ public class Driver {
             System.out.println("Loaded poly.txt");
         } catch (Exception e) {
             System.out.println("Could not load poly.txt");
-            // e.printStackTrace();
         }
 
         try {
