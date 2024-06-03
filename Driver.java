@@ -9,8 +9,8 @@ public class Driver {
         int[] e1 = {0, 3};
         Polynomial p1 = new Polynomial(c1, e1);
 
-        double[] c2 = {-9, -2};
-        int[] e2 = {4, 1};
+        double[] c2 = {-2, -9};
+        int[] e2 = {1, 4};
         Polynomial p2 = new Polynomial(c2, e2);
 
         Polynomial s = p1.add(p2);

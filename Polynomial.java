@@ -24,10 +24,10 @@ public class Polynomial {
     }
 
     public Polynomial(String s) {
-        s = s   .replaceAll("-", "+-")
-                .replaceAll("\\+x", "+1x")
-                .replaceAll("-x", "-1x")
-                .replaceAll("x", "x ");
+        s = s   .replace("-", "+-")
+                .replace("+x", "+1x")
+                .replace("-x", "-1x")
+                .replace("x", "x ");
         if (s.startsWith("x")) s = "1" + s;
         String[] tokens = s.split("\\+");
 
